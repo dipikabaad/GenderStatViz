@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10400.17.1206.1554                               -->
+<workbook source-build='10.4.2 (10400.17.1206.1554)' source-platform='win' version='10.4' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='all' inline='true' name='federated.0orn7d21rzb4be12h5t7i0v6swfl' version='10.4'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='all' name='textscan.1v8k9ks0uvj2vq13q82yo1uvyo9b'>
+            <connection class='textscan' directory='Data/GenderStatViz' filename='all.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[all.csv].[1960]' />
+              <field name='[all.csv].[1961]' />
+              <field name='[all.csv].[1962]' />
+              <field name='[all.csv].[1963]' />
+              <field name='[all.csv].[1964]' />
+              <field name='[all.csv].[1965]' />
+              <field name='[all.csv].[1966]' />
+              <field name='[all.csv].[1967]' />
+              <field name='[all.csv].[1968]' />
+              <field name='[all.csv].[1969]' />
+              <field name='[all.csv].[1970]' />
+              <field name='[all.csv].[1971]' />
+              <field name='[all.csv].[1972]' />
+              <field name='[all.csv].[1973]' />
+              <field name='[all.csv].[1974]' />
+              <field name='[all.csv].[1975]' />
+              <field name='[all.csv].[1976]' />
+              <field name='[all.csv].[1977]' />
+              <field name='[all.csv].[1978]' />
+              <field name='[all.csv].[1979]' />
+              <field name='[all.csv].[1980]' />
+              <field name='[all.csv].[1981]' />
+              <field name='[all.csv].[1982]' />
+              <field name='[all.csv].[1983]' />
+              <field name='[all.csv].[1984]' />
+              <field name='[all.csv].[1985]' />
+              <field name='[all.csv].[1986]' />
+              <field name='[all.csv].[1987]' />
+              <field name='[all.csv].[1988]' />
+              <field name='[all.csv].[1989]' />
+              <field name='[all.csv].[1990]' />
+              <field name='[all.csv].[1991]' />
+              <field name='[all.csv].[1992]' />
+              <field name='[all.csv].[1993]' />
+              <field name='[all.csv].[1994]' />
+              <field name='[all.csv].[1995]' />
+              <field name='[all.csv].[1996]' />
+              <field name='[all.csv].[1997]' />
+              <field name='[all.csv].[1998]' />
+              <field name='[all.csv].[1999]' />
+              <field name='[all.csv].[2000]' />
+              <field name='[all.csv].[2001]' />
+              <field name='[all.csv].[2002]' />
+              <field name='[all.csv].[2003]' />
+              <field name='[all.csv].[2004]' />
+              <field name='[all.csv].[2005]' />
+              <field name='[all.csv].[2006]' />
+              <field name='[all.csv].[2007]' />
+              <field name='[all.csv].[2008]' />
+              <field name='[all.csv].[2009]' />
+              <field name='[all.csv].[2010]' />
+              <field name='[all.csv].[2011]' />
+              <field name='[all.csv].[2012]' />
+              <field name='[all.csv].[2013]' />
+              <field name='[all.csv].[2014]' />
+              <field name='[all.csv].[2015]' />
+              <field name='[all.csv].[2016]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1v8k9ks0uvj2vq13q82yo1uvyo9b' name='all.csv' table='[all#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='real' name='1960' ordinal='1' />
+              <column datatype='real' name='1961' ordinal='2' />
+              <column datatype='real' name='1962' ordinal='3' />
+              <column datatype='real' name='1963' ordinal='4' />
+              <column datatype='real' name='1964' ordinal='5' />
+              <column datatype='real' name='1965' ordinal='6' />
+              <column datatype='real' name='1966' ordinal='7' />
+              <column datatype='real' name='1967' ordinal='8' />
+              <column datatype='real' name='1968' ordinal='9' />
+              <column datatype='real' name='1969' ordinal='10' />
+              <column datatype='real' name='1970' ordinal='11' />
+              <column datatype='real' name='1971' ordinal='12' />
+              <column datatype='real' name='1972' ordinal='13' />
+              <column datatype='real' name='1973' ordinal='14' />
+              <column datatype='real' name='1974' ordinal='15' />
+              <column datatype='real' name='1975' ordinal='16' />
+              <column datatype='real' name='1976' ordinal='17' />
+              <column datatype='real' name='1977' ordinal='18' />
+              <column datatype='real' name='1978' ordinal='19' />
+              <column datatype='real' name='1979' ordinal='20' />
+              <column datatype='real' name='1980' ordinal='21' />
+              <column datatype='real' name='1981' ordinal='22' />
+              <column datatype='real' name='1982' ordinal='23' />
+              <column datatype='real' name='1983' ordinal='24' />
+              <column datatype='real' name='1984' ordinal='25' />
+              <column datatype='real' name='1985' ordinal='26' />
+              <column datatype='real' name='1986' ordinal='27' />
+              <column datatype='real' name='1987' ordinal='28' />
+              <column datatype='real' name='1988' ordinal='29' />
+              <column datatype='real' name='1989' ordinal='30' />
+              <column datatype='real' name='1990' ordinal='31' />
+              <column datatype='real' name='1991' ordinal='32' />
+              <column datatype='real' name='1992' ordinal='33' />
+              <column datatype='real' name='1993' ordinal='34' />
+              <column datatype='real' name='1994' ordinal='35' />
+              <column datatype='real' name='1995' ordinal='36' />
+              <column datatype='real' name='1996' ordinal='37' />
+              <column datatype='real' name='1997' ordinal='38' />
+              <column datatype='real' name='1998' ordinal='39' />
+              <column datatype='real' name='1999' ordinal='40' />
+              <column datatype='real' name='2000' ordinal='41' />
+              <column datatype='real' name='2001' ordinal='42' />
+              <column datatype='real' name='2002' ordinal='43' />
+              <column datatype='real' name='2003' ordinal='44' />
+              <column datatype='real' name='2004' ordinal='45' />
+              <column datatype='real' name='2005' ordinal='46' />
+              <column datatype='real' name='2006' ordinal='47' />
+              <column datatype='real' name='2007' ordinal='48' />
+              <column datatype='real' name='2008' ordinal='49' />
+              <column datatype='real' name='2009' ordinal='50' />
+              <column datatype='real' name='2010' ordinal='51' />
+              <column datatype='real' name='2011' ordinal='52' />
+              <column datatype='real' name='2012' ordinal='53' />
+              <column datatype='real' name='2013' ordinal='54' />
+              <column datatype='real' name='2014' ordinal='55' />
+              <column datatype='real' name='2015' ordinal='56' />
+              <column datatype='real' name='2016' ordinal='57' />
+              <column datatype='string' name='Gender' ordinal='58' />
+              <column datatype='string' name='Age Group' ordinal='59' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[all.csv]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[all.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Group]</local-name>
+            <parent-name>[all.csv]</parent-name>
+            <remote-alias>Age Group</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[all.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Female Population' datatype='real' name='[Calculation_605171228288196608]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Gender] = &apos;F&apos; THEN [Pivot Field Values] END' />
+      </column>
+      <column caption='Male Population' datatype='real' name='[Calculation_605171228288380929]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Gender] = &apos;M&apos; THEN [Pivot Field Values] END' />
+      </column>
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.459615' measure-ordering='alphabetic' measure-percentage='0.540385' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='population'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all' name='federated.0orn7d21rzb4be12h5t7i0v6swfl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0orn7d21rzb4be12h5t7i0v6swfl'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column caption='Female Population' datatype='real' name='[Calculation_605171228288196608]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Gender] = &apos;F&apos; THEN [Pivot Field Values] END' />
+            </column>
+            <column caption='Male Population' datatype='real' name='[Calculation_605171228288380929]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Gender] = &apos;M&apos; THEN [Pivot Field Values] END' />
+            </column>
+            <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Population' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_605171228288196608]' derivation='Sum' name='[sum:Calculation_605171228288196608:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_605171228288380929]' derivation='Sum' name='[sum:Calculation_605171228288380929:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='natural' column='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Age Group:nk]' direction='DESC' />
+          <filter class='categorical' column='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Country Name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;Europe &amp; Central Asia&quot;' />
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;South Asia&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Country Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288196608:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288196608:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288196608:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288196608:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f17b79' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288380929:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Age Group:nk]</rows>
+        <cols>([federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Country Name:nk] * ([federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288196608:qk] + [federated.0orn7d21rzb4be12h5t7i0v6swfl].[sum:Calculation_605171228288380929:qk]))</cols>
+        <pages>
+          <column>[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Pivot Field Names:nk]</column>
+        </pages>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='population'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0orn7d21rzb4be12h5t7i0v6swfl].[none:Country Name:nk]' type='filter' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;2016&quot;</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+    </window>
+  </windows>
+</workbook>
